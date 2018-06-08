@@ -1,0 +1,109 @@
+.App {
+  margin-top:10%;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-weight: 600;
+}
+.inputTitle{
+  background-color: #e0e0e0;
+  border-radius: 0 !important;
+  border:0 solid #e0e0e0;
+  width:100%;
+}
+#btnAdd{
+  background-color: #f47a42;
+  color:white !important;
+  border-radius: 0;
+  border: 0 solid #f47a42;
+  margin-left: 10px;
+}
+.App-intro {
+  font-size: large;
+}
+.itemComplete{
+  background-color: #f9d0b6;
+}
+.itemIncomplete{
+  background-color: #efefef;
+}
+.completeCol,.editCol,.delCol{
+  width:50px;
+}
+td{
+  vertical-align: middle !important;  
+  font-size: 18px;
+}
+.form-group-lg .form-control {
+  min-width: 450px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  background-color:  #f47a42;
+  color:white;
+  border: 0;
+  border-bottom-color: #f47a42;
+}
+.nav-tabs{
+  border-bottom: 2px solid #f47a42;
+
+}
+.nav-tabs>li>a{
+  border-radius: 0;
+  font-size:16px;
+  font-weight: bold;
+  color:#f47a42;
+  border: 0;
+}
+.nav-tabs>li{
+  margin-bottom: 0;
+}
+.show-grid{
+  margin-top:10px
+}
+.btn{
+  border-radius: 0px;
+}
+.modal-content{
+  border-radius: 0px;
+}
+.modal-title{
+  font-size: 18px;
+  font-weight: bold;
+  color:#f47a42;
+}
+.modal-header{
+  border-bottom: 0;
+}
+.modal-footer{
+  border-top: 0;
+}
+.editVal{
+  border-radius: 0 !important;
+  color:#222;
+  line-height: 0px;
+  min-width: 100%;
+}
+.toComplete{
+  border: 0;
+}
+.eventDetail{
+  text-decoration: none;
+  font-size:13px;
+  float: right;
+  vertical-align: middle;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
